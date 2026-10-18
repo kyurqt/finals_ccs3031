@@ -30,26 +30,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 32px;
   text-align: center;
 }
 
 .title {
   color: #5c0d11;
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 40px;
+  margin-bottom: 8px;
 }
 
 .subtitle {
   color: #4a3e3d;
-  font-size: 1.1rem;
-  margin-bottom: 4rem;
+  font-size: 18px;
+  margin-bottom: 64px;
 }
 
 .logo-showcase {
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 64px;
   flex-wrap: wrap;
 }
 
@@ -57,7 +57,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 16px;
 }
 
 .image-box {
@@ -68,7 +68,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
+  padding: 24px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
@@ -80,36 +80,36 @@
 
 .partner-item h2 {
   color: #7a1c1d;
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 600;
   margin: 0;
 }
 
 @media (max-width: 768px) {
-  .title {
-    font-size: 2rem;
-  }
-
   .partnerships-page {
     display: block;
     padding-top: 220px;
-    padding-bottom: 3rem;
+    padding-bottom: 48px;
+  }
+  
+  .title {
+    font-size: 32px;
   }
 
   .subtitle {
-    font-size: 1rem; 
-    margin-bottom: 2.5rem;
-    padding: 0 1rem;
+    font-size: 16px; 
+    margin-bottom: 40px;
+    padding: 0 16px;
   }
 
   .logo-showcase {
-    gap: 2rem; 
+    gap: 32px; 
   }
 
   .image-box {
     width: 130px; 
     height: 130px;
-    padding: 1rem;
+    padding: 16px;
   }
 }
 </style>

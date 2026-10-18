@@ -9,8 +9,8 @@
   background-color: #5c0d11; 
   color: #ffffff; 
   text-align: center; 
-  padding: 1.5rem;
-  font-size: 0.95rem;
+  padding: 24px;
+  font-size: 16px;
   letter-spacing: 0.5px;
 }
 
