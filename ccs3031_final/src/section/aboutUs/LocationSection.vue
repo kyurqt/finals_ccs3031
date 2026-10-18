@@ -62,7 +62,7 @@
     }
   }
   .right {
-    background-color: #f0e2c6;
+    background-color: #e6eadb;
     display: flex;
     flex-direction: column;
     padding: 160px 40px 40px 40px;

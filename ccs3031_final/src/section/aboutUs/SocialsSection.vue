@@ -6,21 +6,21 @@
         <p>Follow Kape ni Emman for new drinks, updates and café moments.</p>
       </div>
       <div class="list">
-        <a class="item" href="https://web.facebook.com/kapeniemman" target="_blank">
+        <div class="item">
           <img src="@/assets/image/facebook-logo.png" alt="Facebook logo" />
           <h2>Facebook</h2>
           <p>kapeniemman</p>
-        </a>
-        <a class="item" href="https://www.instagram.com/kapeniemman" target="_blank">
+        </div>
+        <div class="item">
           <img src="@/assets/image/instagram-logo.png" alt="Instagram logo" />
           <h2>Instagram</h2>
           <p>@kapeniemman</p>
-        </a>
-        <a class="item" href="https://www.tiktok.com/@kapeniemman" target="_blank">
+        </div>
+        <div class="item">
           <img src="@/assets/image/tiktok-logo.png" alt="TikTok logo" />
           <h2>TikTok</h2>
           <p>@kapeniemman</p>
-        </a>
+        </div>
       </div>
     </div>
   </section>
@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f0e2c6;
+  background-color: #e6eadb;
   padding: 40px 20px;
   gap: 30px;
 
@@ -75,7 +75,6 @@
     padding: 30px 20px;
     gap: 10px;
     color: #ffffff;
-    text-decoration: none;
 
     img {
       width: 70px;

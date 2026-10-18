@@ -5,40 +5,40 @@
         <h1>Pastry</h1>
         <p>Freshly made waffles, made to order and a perfect size for sharing.</p>
       </div>
-      <h2 class="group">Freshly Made Waffles <span>4pcs, made to order</span></h2>
+      <h2 class="group">Freshly Made Waffles</h2>
       <div class="list">
         <div class="item">
-          <img class="picture" src="@/assets/image/scramble-waffle.png" alt="Scramble Waffle" />
+          <img src="@/assets/image/scramble-waffle.png" alt="Scramble Waffle" />
           <h3>Scramble Waffle</h3>
           <p class="desc">Your favorite childhood Ice Scramble turned into a warm, café-made waffle treat.</p>
           <p class="price">₱—</p>
         </div>
         <div class="item">
-          <img class="picture" src="@/assets/image/classic-stack.png" alt="Classic Stack" />
+          <img src="@/assets/image/classic-stack.png" alt="Classic Stack" />
           <h3>Classic Stack</h3>
           <p class="desc">A slightly crispy waffle with maple syrup & softened butter</p>
           <p class="price">₱170.00</p>
         </div>
         <div class="item">
-          <img class="picture" src="@/assets/image/cinnamon-crisp.png" alt="Cinnamon Crisp" />
+          <img src="@/assets/image/cinnamon-crisp.png" alt="Cinnamon Crisp" />
           <h3>Cinnamon Crisp</h3>
           <p class="desc">Crispy cinnamon waffles topped with cream cheese frosting and more cinnamon.</p>
           <p class="price">₱210.00</p>
         </div>
         <div class="item">
-          <img class="picture" src="@/assets/image/caramel-pecan-frost.png" alt="Caramel Pecan Frost" />
+          <img src="@/assets/image/caramel-pecan-frost.png" alt="Caramel Pecan Frost" />
           <h3>Caramel Pecan Frost</h3>
           <p class="desc">Emman's signature waffle with signature frosting, slow-cooked caramel sauce, and crunchy pecans.</p>
           <p class="price">₱210.00</p>
         </div>
         <div class="item">
-          <img class="picture" src="@/assets/image/oreo-cookie-crumble.png" alt="Oreo Cookie Crumble" />
+          <img src="@/assets/image/oreo-cookie-crumble.png" alt="Oreo Cookie Crumble" />
           <h3>Oreo Cookie Crumble</h3>
           <p class="desc">Emman's signature waffles with signature frosting, homemade chocolate sauce, and crushed Oreo cookies.</p>
           <p class="price">₱210.00</p>
         </div>
         <div class="item">
-          <img class="picture" src="@/assets/image/strawberries-and-cream.png" alt="Strawberries and Cream" />
+          <img src="@/assets/image/strawberries-and-cream.png" alt="Strawberries and Cream" />
           <h3>Strawberries and Cream</h3>
           <p class="desc">Emman's homemade waffles with signature frosting, fresh strawberry purée, and whipped cream.</p>
           <p class="price">₱—</p>
@@ -59,7 +59,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #f0e2c6;
+  background-color: #e6eadb;
   padding-bottom: 30px;
 
   .text {
@@ -83,13 +83,6 @@
     padding: 30px 20px 10px 20px;
     color: #a8231f;
     font-size: 26px;
-
-    span {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 15px;
-      font-weight: normal;
-      color: #555555;
-    }
   }
   .list {
     display: grid;
@@ -110,7 +103,7 @@
       font-size: 20px;
       color: #ffffff;
     }
-    .picture {
+    img {
       width: 100%;
       height: 180px;
       object-fit: cover;
@@ -153,7 +146,7 @@
       h3 {
         font-size: 16px;
       }
-      .picture {
+      img {
         height: 130px;
       }
     }

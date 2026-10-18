@@ -83,7 +83,7 @@
     }
   }
   .bottom {
-    background-color: #f0e2c6;
+    background-color: #e6eadb;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 30px 40px 40px 40px;
@@ -121,7 +121,6 @@
     }
   }
 }
-
 @media (max-width: 768px) {
   .container {
     .top {
