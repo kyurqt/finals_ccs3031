@@ -128,7 +128,7 @@ const scrolltoProductSection = async (id) => {
     }
   }
 
-  .dropdown .submenu {
+  .dropdown:hover .submenu {
     display: flex;
   }
 }
