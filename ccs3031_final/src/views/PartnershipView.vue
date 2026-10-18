@@ -16,7 +16,7 @@
           <div class="image-box">
             <img src="@/assets/image/foodpanda.jpg" class="brand-logo" />
           </div>
-          <h2>foodpanda</h2>
+          <h2>FoodPanda</h2>
         </div>
       </div>
     </div>
