@@ -26,7 +26,7 @@
 <style scoped>
 .partnerships-page {
   background-color: #e8ebd9;
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
